@@ -1,4 +1,5 @@
 # Engram Network - Tokio chain
+![image](https://github.com/0xftm/Engram/assets/115777868/251c0848-3a49-4599-a156-915de297b2b5)
 ## Official Links
 - Blockchain Explorer EL : [`Blockscout`](https://nodewatch.engram.tech/)
 - Blockchain Explorer CL : [`Validator Rewards Monitor`](https://beaconscan-v2.engram.tech/)
