@@ -71,6 +71,36 @@ Verifying your keystores:         [####################################]  32/32
 ```
 
 ### - Manual
+```sh
+sudo apt update -y && sudo apt upgrade -y
+```
+```sh
+git clone https://github.com/engram-network/tokio-docker.git
+cd tokio-docker
+git checkout dencun
+sudo chmod +x ./scripts/*.sh
+```
+Skip Docker if have installed
+```sh
+./scripts/install-docker.sh
+```
+```sh
+./scripts/install-asdf.sh
+mkdir -p execution consensus
+```
+```sh
+sudo nano ./scripts/validator-deposit-data.sh
+```
+```sh
+amount:  # 32000000000
+smin: # 0
+smax: # 1
+withdrawals-mnemonic:  #your mnemonic phrase from generate eth2-val-tools.
+validators-mnemonic:  #your mnemonic phrase from generate eth2-val-tools.
+from: # EVM wallet address
+privatekey: your privatekey EVM wallet
+```
+
 --updating--
 
 ## Check status
